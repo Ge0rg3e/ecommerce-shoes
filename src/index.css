@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply bg-[#191e25] text-[#c4c6c8] overflow-x-hidden;
+}
+
+.transition-smth {
+    transition: 0.3s;
+}
